@@ -1,5 +1,5 @@
 {
-  "name": "solarpeng_node_eval",
+  "name": "solarpeng_node_eval11",
   "version": "1.10.0",
   "description": "(Un)CommonJS test runner.",
   "keywords": [
@@ -9,7 +9,7 @@
     "unit"
   ],
   "homepage": "https://github.com/Gozala/test-commonjs/",
-  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "author": "solarpeng502",
   "contributors": [
     "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
     "Kris Kowal <kris@cixar.com> (http://github.com/kriskowal/)",
